@@ -1,7 +1,7 @@
 # Linux-LFI-Harvester
 Linux System Information Harvesting through Local File Inclusion (LFI) Vulnerability 🐱
 
-```shell
+```
 └──╼ $python3 LFIH.py -u http://bagel.htb:8000/?page=../../../../ -h
 
                       __      _
