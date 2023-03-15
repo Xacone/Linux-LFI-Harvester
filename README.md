@@ -44,12 +44,3 @@ Retrieving processes cmdlines (args) through 100 sync threads to increase speed 
 
 Retrieving processes cmdlines (args) with 50 threads and escaping "File not found" response string : <br>
 ```python3 LFIH.py -u http://bagel.htb:8000/?page=../../../../ -cmdlines -t 50 -p "File not found"```
-
-# Screenshots 🍩
-<img src="https://i.ibb.co/HVHYcmw/image.png">
-<img src="https://i.ibb.co/jk5H2hb/image.png">
-
-
-
-
-
