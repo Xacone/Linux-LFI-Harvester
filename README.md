@@ -30,7 +30,7 @@ optional arguments:
   -etc        Retrieving on /etc
   -var        Retrieving on /var
   -all        Retrieving all of the above
-  -p P        Pathern to skip for cmdlines (i.e. NotFounds strings)
+  -p P        Pattern to skip for cmdlines (i.e. NotFounds strings)
   -x64        Targeting an x64 machine (x32 by default)
 
 ```
