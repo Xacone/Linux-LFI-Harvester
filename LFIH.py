@@ -142,7 +142,7 @@ parser.add_argument('-cmdlines', help='Retrieving of 1-MAX_PID cmdlines on /proc
 parser.add_argument('-etc', help='Retrieving on /etc', action='store_true')
 parser.add_argument('-var', help='Retrieving on /var', action='store_true')
 parser.add_argument('-all', help='Retrieving all of the above', action='store_true')
-parser.add_argument('-p', help="Pathern to skip for cmdlines (i.e. NotFounds strings)", type=str)
+parser.add_argument('-p', help="Pattern to skip for cmdlines (i.e. NotFounds strings)", type=str)
  
 parser.add_argument('-x64', help="Targeting an x64 machine (x32 by default)", action='store_true')
 
